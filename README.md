@@ -1,7 +1,5 @@
 # phaser tutorial
 
-<p align="center"><a href="https://github.com/"><img width=50% src="https://wonjerry.github.io/images/github_logo.png"></a></p>
-
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 ![phaser](https://img.shields.io/badge/phaser-v3.55.2+-red.svg)
 ![http-server](https://img.shields.io/badge/httpserver-v13.0.1+-blue.svg)
@@ -12,7 +10,7 @@ phaser는 2D 게임 프레임워크이며, 웹 브라우저와 모바일을 위�
 
 <br/>
 
-<img src="https://blog.kakaocdn.net/dn/C2I55/btqDPKMnmSC/Hk215teKpxHtrvPOXMqkm1/img.jpg" height="400px" width="100%" />
+<img src="./md_image/title.jpeg" height="400px" width="100%" />
 
 <a href="https://github.com/photonstorm/phaser"> phaser github 방문하기</a> <br/>
 <a href="https://phaser.io/"> phaser site 방문하기</a>

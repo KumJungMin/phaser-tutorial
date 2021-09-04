@@ -17,7 +17,6 @@ phaser는 2D 게임 프레임워크이며, 웹 브라우저와 모바일을 위�
 <a href="https://github.com/photonstorm/phaser"> phaser github 방문하기</a> <br/>
 <a href="https://phaser.io/"> phaser site 방문하기</a>
 
-
 ---
 
 ## Table of Contents
@@ -29,19 +28,22 @@ phaser는 2D 게임 프레임워크이며, 웹 브라우저와 모바일을 위�
 
 ## Getting Started
 
-  ### Installing
-  명령어를 사용해 dependencies를 설치한다.
-  
-  ```
-  npm install
-  ```
-  
-  ### playing
-  명령어를 사용해 각 파일별로 실행시킬 수 있다.
+### Installing
 
-  ```
-  npm start
-  ```
+명령어를 사용해 dependencies를 설치한다.
+
+```
+npm install
+```
+
+### playing
+
+명령어를 사용해 각 파일별로 실행시킬 수 있다.
+
+```
+npm start
+```
 
 ## Tutorial List
-- ...
+
+- <a href="./tutorial_description/1_default_setting.md">개발환경 설정하기</a>

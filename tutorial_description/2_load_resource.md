@@ -167,3 +167,35 @@ platforms = this.physics.add.staticGroup(); //그룹만들기!
   - 만약 이 정적 몸체를 확대하고 싶다면 `setScale(2)`를 사용한다.
   - 대신 정적본체의 크기를 조정하면(확대 등), `refreshBody`를 꼭 해줘야 한다. <br/>
     (물리 세계에게 `**refreshBody`로\*\* 정적 본체를 변형했다는 걸 꼬옥!!! 알려줘야 함!)
+
+<br/><br/>
+
+_위 과정을 거치며 코드는 아래와 같은 형태가 된다._
+
+```jsx
+const config = {
+  type: Phaser.AUTO,
+  width: 800,
+  height: 600,
+  scene: {
+    preload: preload,
+    create: create,
+    update: update,
+  },
+};
+const game = new Phaser.Game(config);
+
+function preload() {
+  this.load.image("sky", "assets/sky.png");
+  this.load.image("ground", "assets/platform.png");
+  this.load.image("star", "assets/star.png");
+  this.load.image("bomb", "assets/bomb.png");
+  this.load.spritesheet("dude", "assets/dude.png", {
+    frameWidth: 32,
+    frameHeight: 48,
+  });
+}
+
+function create() {}
+function update() {}
+```

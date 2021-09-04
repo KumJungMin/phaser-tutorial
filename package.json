@@ -1,0 +1,24 @@
+{
+  "name": "phaser-tutorial",
+  "version": "1.0.0",
+  "description": "phaser의 기본을 익혀보자!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "./node_modules/.bin/http-server -a localhost -p 8000 -c-1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KumJungMin/phaser-tutorial.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KumJungMin/phaser-tutorial/issues"
+  },
+  "homepage": "https://github.com/KumJungMin/phaser-tutorial#readme",
+  "dependencies": {
+    "http-server": "^13.0.1",
+    "phaser": "^3.55.2"
+  }
+}

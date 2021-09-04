@@ -46,4 +46,5 @@ npm start
 
 ## Tutorial List
 
-- <a href="./tutorial_description/1_default_setting.md">개발환경 설정하기</a>
+- <a href="./tutorial_description/1_default_setting.md">1. 개발환경 설정하기</a>
+- <a href="./tutorial_description/2_load_resource.md">2. 리소스 추가하기</a>

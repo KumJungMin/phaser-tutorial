@@ -44,6 +44,9 @@ npm start
 
 ## Tutorial List
 
+### tutorial.html
+
 - <a href="./tutorial_description/1_default_setting.md">1. 개발환경 설정하기</a>
 - <a href="./tutorial_description/2_load_resource.md">2. 리소스 추가하기</a>
 - <a href="./tutorial_description/3_add_player.md">3. 플레이어 추가하기</a>
+- <a href="./tutorial_description/4_score.md">4. 별 추가하고 스코어 만들기</a>

@@ -13,7 +13,7 @@
 <body>
 
 <script type="text/javascript">
-    var config = {
+    const config = {
         type: Phaser.AUTO,
         width: 800,
         height: 600,
@@ -31,7 +31,7 @@
         }
     };
 
-    var game = new Phaser.Game(config);
+    const game = new Phaser.Game(config);
     let paltforms, player, cursor, stars, scoreText, bombs;
     let score = 0;
     let gameOver = false;
